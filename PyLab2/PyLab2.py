@@ -1,5 +1,5 @@
 import math 
-from PyMod import digitsum
+import PyMod 
 
 def func(x):
     while x<0 :
