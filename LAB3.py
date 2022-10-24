@@ -7,7 +7,9 @@ def first():
     print(b[3:20:3])
 
 def second():
-    b=input("please enter the number\n")
+    b=(input("please enter the four-digit number\n"))
+    while int(b)<999 or int(b)>=9999 :
+        b=(input("please enter the four-digit number\n"))
     max = int(b[0])
     for i in range(len(b)):
         if max < int(b[i]):
